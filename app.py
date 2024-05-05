@@ -8,8 +8,8 @@ load_model = pickle.load(open('NPAfinal_model.sav', 'rb'))
 
 @app.route('/favicon.ico')
 def favicon():
-    return send_from_directory(os.path.join(app.root_path, 'static'), 'favicon.ico', mimetype='image/vnd.microsoft.icon')
-
+    return app.send_static_file('favicon.ico')
+    
 @app.route("/")
 def hello():
     return render_template("index.html")
