@@ -1,5 +1,6 @@
 from flask import Flask, request, jsonify, render_template, send_from_directory 
 import pickle
+import os 
 
 app = Flask(__name__)
 load_model = pickle.load(open('NPAfinal_model.sav', 'rb'))
