@@ -2,7 +2,7 @@ from flask import Flask, request, jsonify, render_template
 import pickle
 
 app = Flask(__name__)
-load_model = pickle.load(open('NPAfinal_model.sav', 'rb'))
+load_model = pickle.load(open('finalmodel.sav', 'rb'))
     
 @app.route("/")
 def hello():
