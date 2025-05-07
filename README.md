@@ -18,12 +18,12 @@
 
 ## ✨ Features
 
-- 🧠 ML-based fake vs real news classification
-- 🔎 Real-time prediction on custom input
-- 📊 Trained on large dataset from Kaggle
-- 💡 Model with highest accuracy gets connected (Naive Bayes / Passive Aggressive)
-- ⚙️ Flask-powered backend with Python model integration
-- 📱 Minimal UI for testing predictions
+- ML-based fake vs real news classification
+- Real-time prediction on custom input
+- Trained on large dataset from Kaggle
+- Model with highest accuracy gets connected (Naive Bayes / Passive Aggressive)
+- Flask-powered backend with Python model integration
+- Minimal UI for testing predictions
 
 ##  ⚙️ Setup Instructions
 
@@ -31,19 +31,16 @@ To run this project locally:
 
 1. **Clone the repository:**
 ```
-git clone https://github.com/R-o-n-a-k/FakeNewsDetector.git
-
-cd FakeNewsDetector
+git clone https://github.com/R-o-n-a-k/FND.git
+cd FND
 ```
 
 2. **Install dependencies:**
-
 ```
 pip install -r requirements.txt
 ```
 
 3. **Run the flask app:**
-
 ```
 python app.py
 ```
@@ -51,3 +48,6 @@ python app.py
 ## 🌐 Live Demo
 
 🔗 [Fake News Detection](https://fakenewsdetection-t083.onrender.com/)
+
+<hr> 
+<p align="center">Built to fight misinformation with machine learning 🧠</p>
