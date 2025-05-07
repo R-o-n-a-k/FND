@@ -21,7 +21,7 @@
 - 🧠 ML-based fake vs real news classification
 - 🔎 Real-time prediction on custom input
 - 📊 Trained on large dataset from Kaggle
-- 💡 Option to switch between multiple models (Naive Bayes / Passive Aggressive)
+- 💡 Model with highest accuracy gets connected (Naive Bayes / Passive Aggressive)
 - ⚙️ Flask-powered backend with Python model integration
 - 📱 Minimal UI for testing predictions
 
