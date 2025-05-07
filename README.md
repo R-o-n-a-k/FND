@@ -1,6 +1,6 @@
 # Fake News Detection
 <p align="center">
-  <img src="https://github.com/R-o-n-a-k/R-o-n-a-k/blob/cc804e68b237228c7a54aeb0268759ff28998680/assets/FND.gif?raw=true" alt="Fake News Detection" width="100%" />
+  <img src="https://github.com/R-o-n-a-k/assets/blob/40b401458ae867b491ec9390bd8de3d8d5a42389/assets/FND.gif?raw=true" alt="Fake News Detection" width="100%" />
 </p>
 
 ## 🚀 About Project
@@ -47,3 +47,7 @@ pip install -r requirements.txt
 ```
 python app.py
 ```
+
+## 🌐 Live Demo
+
+🔗 [Fake News Detection](https://fakenewsdetection-t083.onrender.com/)
